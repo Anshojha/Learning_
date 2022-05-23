@@ -21,3 +21,26 @@ C++ is very close to hardware .It gives us a clear understanding about Object Or
 
 º Embedded System 
 
+The files you create with your editor are called source files and for C++ they typically are named with the extension .cpp, .cp, or .c.
+
+**C++ Program Structure**
+
+#include <iostream>
+  
+  
+using namespace std;
+
+  
+// main() is where program execution begins.
+  
+  
+int main() {
+  
+  
+   cout << "Hello World"; // prints Hello World
+  
+  
+   return 0;
+  
+  
+}
