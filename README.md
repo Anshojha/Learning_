@@ -12,7 +12,12 @@ C++ is very close to hardware .It gives us a clear understanding about Object Or
 **Applications of C++ Programming**
 
 º Application Software Development 
+
 º  Programming Languages Development
+
 º Computation Programming 
+
 º Games Development
+
 º Embedded System 
+
