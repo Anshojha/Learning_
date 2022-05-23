@@ -2,7 +2,7 @@
 
 **Today I started learning C++** 
 
-# Chapter 1
+# OVERVIEW
 
 C++ is a middle-level programming language developed by Bjarne Stroustrup in 1979. 
 
@@ -26,21 +26,15 @@ The files you create with your editor are called source files and for C++ they t
 **C++ Program Structure**
 
 #include <iostream>
-  
-  
+   
 using namespace std;
-
-  
+ 
 // main() is where program execution begins.
-  
   
 int main() {
   
-  
    cout << "Hello World"; // prints Hello World
   
-  
    return 0;
-  
   
 }
