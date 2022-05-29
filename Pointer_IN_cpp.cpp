@@ -12,7 +12,7 @@
     cout<<"The address of a is "<<b<<endl;
       // 8 -> Dereference Operator
     cout<<"The address of a is "<<*b<<endl;
-
+    // Pointer to Pointer
     int **c =&b;
     cout<<**c;
         return 0;

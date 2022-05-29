@@ -23,7 +23,7 @@ int i=1;
 //     cout<<i<<endl;
 //     i++;
 // }
-// int i=0;
+// int i=0;ss
 do
 {
     cout<<i<<endl;
