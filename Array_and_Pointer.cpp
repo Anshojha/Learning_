@@ -3,7 +3,7 @@
 
     int main()
     {
-    //     int marks[]={23,34,45,89};
+        int marks[]={23,34,45,89};
         int mathsMark[4];
         mathsMark[0]=234;
         mathsMark[1]=234;
@@ -38,6 +38,23 @@ int i=0;
         i++;
     } while (i<4);
     
+    // Pointers and Array
+
+    int *p = marks;
+
     
+    cout<<*(++p)<<endl;
+    cout<<*(p++)<<endl;
+    
+    cout<<*(p++)<<endl;
+    
+    cout<<*(p++)<<endl;
+    cout<<*(p++)<<endl;
+    
+    //  cout<<"The value of marks "<<i<<" is "<< *p<<endl;
+    //  cout<<"The value of marks "<<i<<" is "<< *(p+1)<<endl;
+    //  cout<<"The value of marks "<<i<<" is "<< *(p+2)<<endl;
+    //  cout<<"The value of marks "<<i<<" is "<< *(p+3)<<endl;
+
            return 0;
     }
