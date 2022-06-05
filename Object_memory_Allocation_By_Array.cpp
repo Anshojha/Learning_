@@ -14,7 +14,7 @@ class shop{
 }; 
 
 void shop ::setPrice(void){
-    cout<<"Enter ID of item number  "<< counter +1<<":" <<endl;
+    cout<<"Enter ID of item number "<< counter +1<<":" <<endl;
     cin>>itemID[counter];
     cout<<"Enter the price your item: "<<endl;
     cin>>itemPrice[counter] ;
@@ -31,9 +31,17 @@ void shop ::displayPrice(void){
 
 int main()
 {
+    int n;
     shop dukkan;
     dukkan.initCounter();
+cout<<"Enter the total number of Item:"<<endl;
+cin>>n;
+
+for (int i = 0; i < n; i++)
+{
     dukkan.setPrice();
+}
+
     dukkan.displayPrice();
     return 0;
 }
