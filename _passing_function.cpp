@@ -17,7 +17,7 @@ class Complex
         b = o2.b + o2.b;
     }
     void printNumber(){
-        cout<<"The complex number is "<<a<<"+i"<<b<<endl;
+        cout<<"The complex number is "<<a<<"+"<<b<<"i"<<endl;
     }
 };
 
