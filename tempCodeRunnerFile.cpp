@@ -1,2 +1,2 @@
-cout<<*(p++)<<endl;
-    cout<<*(p)<<endl;
+Point a(2,6);
+a.diplayPoint();
