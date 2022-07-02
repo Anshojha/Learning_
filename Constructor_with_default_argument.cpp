@@ -8,15 +8,18 @@ class Simple{
         a=x;
         b=y;
     }
-   void printData();
+   void printData(void);
 };
 
-void Simple:: printData{
-    cout<<"The value of data a is "<<a<<"The value of data b is"<<b;
-}
+void Simple::printData(){
+    cout<<"The value of a and b is "<<a<<" and "<<b<<endl;
+
+};
 
 int main()
 {
+    Simple s(1);
+    s.printData();
            
  return 0;
 }
