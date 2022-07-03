@@ -16,8 +16,7 @@ float moneyRecived(int currentMoney , float factor = 1.04){
 int main()
 {
     // int num1, num2;
-    // cout << "Enter the value of num1 " << endl; 
-    // cin >> num1;
+    // 
     // cout << "Enter the value of num2 " << endl;
     // cin >> num2;
     // // cout << "The product of num1 and num2 is " <<product(num1,num2)<<endl;
