@@ -1,4 +1,1 @@
- // public:
-    // void say(){
-    //     cout<<"Hellow Aliens!!"<<endl;
-    // }
+ ansh.printDataderived();

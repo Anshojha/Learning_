@@ -33,7 +33,7 @@ class B{
 
 class D : public B{
     int a;
-    // D's new say() method will override  base class's say() method
+    // D's new say() method will override  base class's say() method    
     public:
     void  say(){
         cout<<"Hello my beautiful Aliens!!"<<endl;
