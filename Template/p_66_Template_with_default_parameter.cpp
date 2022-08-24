@@ -25,7 +25,7 @@ public:
 int main()
 {
     Harry<> h(4, 4.67, 'd');
-    h.display();
+    h.display();    
     cout << endl;
     // Below is the different way of doing the the same as above
     Harry<int, char, float> g(4, 'd', 'B');
