@@ -7,8 +7,6 @@ class Harry
 public:
     T data;
     Harry(T a)
-
-    
     {
         data = a;
     }
