@@ -18,6 +18,13 @@ int main()
      When to use which?
      Sequence Containers
      1. Vector --> Random access of data is faster and middle insertion/deletion is slow but insertion usually fast at the end
+     2. List --> Random access is slow and middle insertion is fast also deleltion/insertion at the end is fast
+     
+
+     Associative Containers --> All operation are faster except randoma access
+
+
+     Derived Contaoner --> Depends --> Data structure 
 
 
 
