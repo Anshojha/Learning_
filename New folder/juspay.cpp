@@ -47,3 +47,26 @@ int nearestMeetingCell(const vector<int>& arr, int src, int dest) {
 
     return meetingCell;
 }
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int N;
+        cin >> N;
+
+        vector<int> arr(N);
+        for (int i = 0; i < N; ++i) {
+            cin >> arr[i];
+        }
+
+        int src, dest;
+        cin >> src >> dest;
+
+        int meetingCell = nearestMeetingCell(arr, src, dest);
+        cout << meetingCell << endl;
+    }
+
+    return 0;
+}
